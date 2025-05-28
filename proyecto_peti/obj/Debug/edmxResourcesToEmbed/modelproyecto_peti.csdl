@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="proyecto_petiModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Mision">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PlanId" Type="Int32" Nullable="false" />
+    <Property Name="Contenido" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Version" Type="Int32" Nullable="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="PlanEstrategico" Relationship="Self.FK__Mision__PlanId__30F848ED" FromRole="Mision" ToRole="PlanEstrategico" />
+  </EntityType>
+  <EntityType Name="ObjetivosEspecificos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ObjetivoId" Type="Int32" Nullable="false" />
+    <Property Name="Detalle" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Completado" Type="Boolean" Nullable="false" />
+    <Property Name="FechaCompletado" Type="DateTime" Precision="3" />
+    <Property Name="FechaEstimada" Type="DateTime" Precision="0" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="ObjetivosEstrategicos" Relationship="Self.FK__Objetivos__Objet__45F365D3" FromRole="ObjetivosEspecificos" ToRole="ObjetivosEstrategicos" />
+  </EntityType>
+  <EntityType Name="ObjetivosEstrategicos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PlanId" Type="Int32" Nullable="false" />
+    <Property Name="Objetivo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Prioridad" Type="Int32" Nullable="false" />
+    <Property Name="FechaEstimada" Type="DateTime" Precision="0" />
+    <Property Name="Completado" Type="Boolean" Nullable="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="ObjetivosEspecificos" Relationship="Self.FK__Objetivos__Objet__45F365D3" FromRole="ObjetivosEstrategicos" ToRole="ObjetivosEspecificos" />
+    <NavigationProperty Name="PlanEstrategico" Relationship="Self.FK__Objetivos__PlanI__412EB0B6" FromRole="ObjetivosEstrategicos" ToRole="PlanEstrategico" />
+  </EntityType>
+  <EntityType Name="PlanEstrategico">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="FechaActualizacion" Type="DateTime" Precision="3" />
+    <Property Name="Estado" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Mision" Relationship="Self.FK__Mision__PlanId__30F848ED" FromRole="PlanEstrategico" ToRole="Mision" />
+    <NavigationProperty Name="ObjetivosEstrategicos" Relationship="Self.FK__Objetivos__PlanI__412EB0B6" FromRole="PlanEstrategico" ToRole="ObjetivosEstrategicos" />
+    <NavigationProperty Name="Users" Relationship="Self.FK__PlanEstra__UserI__2C3393D0" FromRole="PlanEstrategico" ToRole="Users" />
+    <NavigationProperty Name="Valores" Relationship="Self.FK__Valores__PlanId__3A81B327" FromRole="PlanEstrategico" ToRole="Valores" />
+    <NavigationProperty Name="Vision" Relationship="Self.FK__Vision__PlanId__35BCFE0A" FromRole="PlanEstrategico" ToRole="Vision" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="LastLogin" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="PlanEstrategico" Relationship="Self.FK__PlanEstra__UserI__2C3393D0" FromRole="Users" ToRole="PlanEstrategico" />
+  </EntityType>
+  <EntityType Name="Valores">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PlanId" Type="Int32" Nullable="false" />
+    <Property Name="Valor" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Orden" Type="Int32" Nullable="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="PlanEstrategico" Relationship="Self.FK__Valores__PlanId__3A81B327" FromRole="Valores" ToRole="PlanEstrategico" />
+  </EntityType>
+  <EntityType Name="Vision">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PlanId" Type="Int32" Nullable="false" />
+    <Property Name="Contenido" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Version" Type="Int32" Nullable="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="PlanEstrategico" Relationship="Self.FK__Vision__PlanId__35BCFE0A" FromRole="Vision" ToRole="PlanEstrategico" />
+  </EntityType>
+  <Association Name="FK__Mision__PlanId__30F848ED">
+    <End Role="PlanEstrategico" Type="Self.PlanEstrategico" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Mision" Type="Self.Mision" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PlanEstrategico">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Mision">
+        <PropertyRef Name="PlanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Objetivos__Objet__45F365D3">
+    <End Role="ObjetivosEstrategicos" Type="Self.ObjetivosEstrategicos" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ObjetivosEspecificos" Type="Self.ObjetivosEspecificos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ObjetivosEstrategicos">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ObjetivosEspecificos">
+        <PropertyRef Name="ObjetivoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Objetivos__PlanI__412EB0B6">
+    <End Role="PlanEstrategico" Type="Self.PlanEstrategico" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ObjetivosEstrategicos" Type="Self.ObjetivosEstrategicos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PlanEstrategico">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ObjetivosEstrategicos">
+        <PropertyRef Name="PlanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PlanEstra__UserI__2C3393D0">
+    <End Role="Users" Type="Self.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="PlanEstrategico" Type="Self.PlanEstrategico" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PlanEstrategico">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Valores__PlanId__3A81B327">
+    <End Role="PlanEstrategico" Type="Self.PlanEstrategico" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Valores" Type="Self.Valores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PlanEstrategico">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Valores">
+        <PropertyRef Name="PlanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Vision__PlanId__35BCFE0A">
+    <End Role="PlanEstrategico" Type="Self.PlanEstrategico" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Vision" Type="Self.Vision" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PlanEstrategico">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Vision">
+        <PropertyRef Name="PlanId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="proyecto_petiEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Mision" EntityType="Self.Mision" />
+    <EntitySet Name="ObjetivosEspecificos" EntityType="Self.ObjetivosEspecificos" />
+    <EntitySet Name="ObjetivosEstrategicos" EntityType="Self.ObjetivosEstrategicos" />
+    <EntitySet Name="PlanEstrategico" EntityType="Self.PlanEstrategico" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <EntitySet Name="Valores" EntityType="Self.Valores" />
+    <EntitySet Name="Vision" EntityType="Self.Vision" />
+    <AssociationSet Name="FK__Mision__PlanId__30F848ED" Association="Self.FK__Mision__PlanId__30F848ED">
+      <End Role="PlanEstrategico" EntitySet="PlanEstrategico" />
+      <End Role="Mision" EntitySet="Mision" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Objetivos__Objet__45F365D3" Association="Self.FK__Objetivos__Objet__45F365D3">
+      <End Role="ObjetivosEstrategicos" EntitySet="ObjetivosEstrategicos" />
+      <End Role="ObjetivosEspecificos" EntitySet="ObjetivosEspecificos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Objetivos__PlanI__412EB0B6" Association="Self.FK__Objetivos__PlanI__412EB0B6">
+      <End Role="PlanEstrategico" EntitySet="PlanEstrategico" />
+      <End Role="ObjetivosEstrategicos" EntitySet="ObjetivosEstrategicos" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PlanEstra__UserI__2C3393D0" Association="Self.FK__PlanEstra__UserI__2C3393D0">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="PlanEstrategico" EntitySet="PlanEstrategico" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Valores__PlanId__3A81B327" Association="Self.FK__Valores__PlanId__3A81B327">
+      <End Role="PlanEstrategico" EntitySet="PlanEstrategico" />
+      <End Role="Valores" EntitySet="Valores" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Vision__PlanId__35BCFE0A" Association="Self.FK__Vision__PlanId__35BCFE0A">
+      <End Role="PlanEstrategico" EntitySet="PlanEstrategico" />
+      <End Role="Vision" EntitySet="Vision" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,458 @@
+﻿@{
+    ViewBag.Title = "Matriz BCG Completa";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Usando tu layout
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4"><i class="fas fa-chart-pie me-2"></i>Análisis de Matriz BCG</h2>
+
+    <!-- Sección 1: Previsión de Ventas -->
+    <div class="card card-soft mb-4">
+        <div class="card-header card-header-soft bg-primary text-white">
+            <i class="fas fa-table me-2"></i>PREVISIÓN DE VENTAS
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered table-hover" id="tablaVentas">
+                <thead class="table-light">
+                    <tr>
+                        <th>PRODUCTOS</th>
+                        <th>VENTAS</th>
+                        <th>% S/TOTAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 1; i <= 5; i++)
+                    {
+                        <tr>
+                            <td>Producto @i</td>
+                            <td><input type="number" class="form-control venta" data-producto="@i" placeholder="0.00"></td>
+                            <td class="porcentaje">0.00%</td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot class="table-info">
+                    <tr>
+                        <td><strong>TOTAL</strong></td>
+                        <td id="totalVentas">0</td>
+                        <td id="totalPorcentaje">0.00%</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+
+    <!-- Sección 2: TCM -->
+    <div class="card card-soft mb-4">
+        <div class="card-header card-header-soft bg-success text-white">
+            <i class="fas fa-chart-line me-2"></i>TASAS DE CRECIMIENTO DEL MERCADO (TCM)
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>PERIODOS</th>
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                            <th>Producto @i</th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int year = 2012; year <= 2016; year++)
+                    {
+                        <tr>
+                            <td>@year - @(year + 1)</td>
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                <td><input type="number" class="form-control tcm" data-year="@year" data-producto="@i" placeholder="0.00%"></td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Sección 3: Tabla BCG -->
+    <div class="card card-soft mb-4">
+        <div class="card-header card-header-soft bg-warning text-dark">
+            <i class="fas fa-project-diagram me-2"></i>MATRIZ BCG
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>BCG</th>
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                            <th>Producto @i</th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>TCM</strong></td>
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                            <td class="tcm-promedio">0.00%</td>
+                        }
+                    </tr>
+                    <tr>
+                        <td><strong>PRM</strong></td>
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                            <td><input type="number" class="form-control prm" data-producto="@i" placeholder="0.00"></td>
+                        }
+                    </tr>
+                    <tr>
+                        <td><strong>% S/VTAS</strong></td>
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                            <td class="porcentaje-ventas">0%</td>
+                        }
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Sección 4: Evolución de Demanda -->
+    <div class="card card-soft">
+        <div class="card-header card-header-soft bg-info text-white">
+            <i class="fas fa-globe me-2"></i>EVOLUCIÓN DE LA DEMANDA GLOBAL (miles de soles)
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>AÑOS</th>
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                            <th>Producto @i</th>
+                        }
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int year = 2012; year <= 2017; year++)
+                    {
+                        <tr>
+                            <td>@year</td>
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                <td><input type="number" class="form-control demanda" data-year="@year" data-producto="@i" placeholder="0"></td>
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- Sección 5: Competidores -->
+    <div class="card card-soft mt-4">
+        <div class="card-header card-header-soft bg-dark text-white">
+            <i class="fas fa-trophy me-2"></i>NIVELES DE VENTA DE LOS COMPETIDORES POR PRODUCTO
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover text-center" id="tablaCompetidores">
+                    <thead class="table-light">
+                        <tr>
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                <th colspan="2">Producto @i</th>
+                            }
+                        </tr>
+                        <tr>
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                <th>EMPRESA</th>
+                                <th>VENTAS</th>
+                            }
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Fila de Títulos -->
+                        <tr>
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                <td>Competidor</td>
+                                <td>Ventas</td>
+                            }
+                        </tr>
+                        <!-- Filas de Competidores (9 por producto) -->
+                        @for (int row = 1; row <= 9; row++)
+                        {
+                            <tr>
+                                @for (int prod = 1; prod <= 5; prod++)
+                                {
+                                    <td>CP@(prod)-@row</td>
+                                    <td><input type="number" class="form-control venta-competidor" data-producto="@prod" data-competidor="@row" placeholder="0"></td>
+                                }
+                            </tr>
+                        }
+                        <!-- Fila "Mayor" -->
+                        <tr class="table-warning">
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                <td><strong>Mayor</strong></td>
+                                <td class="mayor-venta" data-producto="@i">0</td>
+                            }
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sección 6: Gráfico BCG y Análisis -->
+    <div class="card card-soft mt-4">
+        <div class="card-header card-header-soft bg-danger text-white">
+            <i class="fas fa-bullseye me-2"></i>MATRIZ BCG - POSICIONAMIENTO DE PRODUCTOS
+        </div>
+        <div class="card-body">
+            <!-- Gráfico BCG -->
+            <div id="bcgChart" style="min-height: 500px; margin-bottom: 2rem;"></div>
+
+            <!-- Instrucción -->
+            <div class="alert alert-info mb-4">
+                <i class="fas fa-info-circle me-2"></i>
+                <strong>Cómo observar:</strong> Cada producto está representado por una bola de color según su posicionamiento en la matriz.
+            </div>
+
+            <!-- Reflexión FODA -->
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="card card-soft h-100">
+                        <div class="card-header card-header-soft bg-success text-white">
+                            <i class="fas fa-thumbs-up me-2"></i>FORTALEZAS
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <label class="form-label">F₃</label>
+                                <textarea class="form-control" rows="2" placeholder="Describa la fortaleza..."></textarea>
+                            </div>
+                            <div>
+                                <label class="form-label">F₄</label>
+                                <textarea class="form-control" rows="2" placeholder="Describa la fortaleza..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card card-soft h-100">
+                        <div class="card-header card-header-soft bg-warning text-dark">
+                            <i class="fas fa-thumbs-down me-2"></i>DEBILIDADES
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <label class="form-label">D₃</label>
+                                <textarea class="form-control" rows="2" placeholder="Describa la debilidad..."></textarea>
+                            </div>
+                            <div>
+                                <label class="form-label">D₄</label>
+                                <textarea class="form-control" rows="2" placeholder="Describa la debilidad..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botones de Navegación (ABAJO) -->
+            <div class="d-flex justify-content-between mt-3">
+                <a href="@Url.Action("Index", "MatrizParticipacion")" class="btn btn-primary">
+                    <i class="fas fa-arrow-left me-2"></i>7. BCG
+                </a>
+                <div>
+                    <button class="btn btn-warning me-2" id="btnGuardar">
+                        <i class="fas fa-save me-2"></i>GUARDAR
+                    </button>
+                    <a href="@Url.Action("Porter", "Home")" class="btn btn-success">
+                        8. ANÁLISIS PORTER <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            // 1. Cálculo de % de Ventas
+            $('.venta').on('input', function () {
+                updateVentas();
+            });
+
+            // 2. Cálculo de TCM Promedio
+            $('.tcm').on('input', function () {
+                updateTCM();
+            });
+
+            // 3. Actualizar PRM y Gráfico
+            $('.prm').on('input', function () {
+                updateBCGChart();
+            });
+
+            function updateVentas() {
+                let total = 0;
+                $('.venta').each(function () {
+                    total += parseFloat($(this).val()) || 0;
+                });
+                $('#totalVentas').text(total.toFixed(2));
+
+                $('.venta').each(function () {
+                    const valor = parseFloat($(this).val()) || 0;
+                    const porcentaje = (total > 0 ? (valor / total * 100) : 0).toFixed(2) + '%';
+                    $(this).closest('tr').find('.porcentaje').text(porcentaje);
+                    $('.porcentaje-ventas').eq($(this).data('producto') - 1).text(porcentaje);
+                });
+            }
+
+            function updateTCM() {
+                $('.tcm-promedio').each(function (i) {
+                    const producto = i + 1;
+                    let sum = 0, count = 0;
+                    $(`.tcm[data-producto="${producto}"]`).each(function () {
+                        sum += parseFloat($(this).val()) || 0;
+                        count++;
+                    });
+                    const promedio = (count > 0 ? (sum / count) : 0).toFixed(2) + '%';
+                    $(this).text(promedio);
+                });
+                updateBCGChart();
+            }
+
+            function updateBCGChart() {
+                const seriesData = [];
+                for (let i = 1; i <= 5; i++) {
+                    const tcm = parseFloat($('.tcm-promedio').eq(i - 1).text()) || 0;
+                    const prm = parseFloat($('.prm').eq(i - 1).val()) || 0;
+                    const ventas = parseFloat($('.porcentaje-ventas').eq(i - 1).text()) || 0;
+
+                    seriesData.push({
+                        x: prm,
+                        y: tcm,
+                        z: ventas * 2, // Ajuste para visualización
+                        name: `Producto ${i}`,
+                        color: ['#FF5733', '#33FF57', '#337DFF', '#F3FF33', '#FF33F3'][i - 1]
+                    });
+                }
+
+                Highcharts.chart('bcgChart', {
+                    chart: { type: 'bubble', plotBorderWidth: 1 },
+                    title: { text: 'MATRIZ BCG' },
+                    xAxis: {
+                        title: { text: 'PRM' },
+                        min: 0, max: 2
+                    },
+                    yAxis: {
+                        title: { text: 'TCM (%)' },
+                        min: -10, max: 20
+                    },
+                    series: [{ data: seriesData }],
+                    tooltip: {
+                        formatter: function () {
+                            return `<b>${this.point.name}</b><br>
+                                        PRM: ${this.point.x}<br>
+                                        TCM: ${this.point.y}%<br>
+                                        Participación: ${this.point.z / 2}%`;
+                        }
+                    }
+                });
+            }
+            // Calcular automáticamente el mayor competidor por producto
+            $('.venta-competidor').on('input', function () {
+                const producto = $(this).data('producto');
+                let maxVenta = 0;
+
+                $(`.venta-competidor[data-producto="${producto}"]`).each(function () {
+                    const venta = parseFloat($(this).val()) || 0;
+                    if (venta > maxVenta) maxVenta = venta;
+                });
+
+                $(`.mayor-venta[data-producto="${producto}"]`).text(maxVenta.toFixed(2));
+            });
+            // Configuración del Gráfico BCG (Burbujas)
+            function renderBCGChart() {
+                Highcharts.chart('bcgChart', {
+                    chart: {
+                        type: 'bubble',
+                        plotBorderWidth: 1,
+                        zoomType: 'xy'
+                    },
+                    title: { text: null },
+                    legend: { enabled: false },
+                    xAxis: {
+                        title: { text: 'Participación Relativa de Mercado (PRM)' },
+                        gridLineWidth: 1,
+                        min: 0,
+                        max: 2,
+                        plotLines: [{
+                            color: '#999',
+                            width: 1,
+                            value: 1,
+                            dashStyle: 'Dash',
+                            label: { text: 'Línea Media PRM' }
+                        }]
+                    },
+                    yAxis: {
+                        title: { text: 'Tasa de Crecimiento del Mercado (TCM)' },
+                        min: -10,
+                        max: 20,
+                        plotLines: [{
+                            color: '#999',
+                            width: 1,
+                            value: 10,
+                            dashStyle: 'Dash',
+                            label: { text: 'Línea Media TCM' }
+                        }]
+                    },
+                    series: [{
+                        data: [
+                            { x: 1.8, y: 15, z: 30, name: 'Producto 1', color: '#FF5733' },  // Estrella
+                            { x: 0.3, y: 18, z: 20, name: 'Producto 2', color: '#33FF57' },  // Interrogante
+                            { x: 1.5, y: 5, z: 35, name: 'Producto 3', color: '#337DFF' },   // Vaca
+                            { x: 0.5, y: -2, z: 15, name: 'Producto 4', color: '#F3FF33' },  // Perro
+                            { x: 1.2, y: 12, z: 25, name: 'Producto 5', color: '#FF33F3' }   // Estrella/Interrogante
+                        ],
+                        dataLabels: {
+                            enabled: true,
+                            format: '{point.name}',
+                            style: { fontWeight: 'bold' }
+                        }
+                    }],
+                    tooltip: {
+                        formatter: function () {
+                            return `<b>${this.point.name}</b><br>
+                        PRM: ${this.point.x}<br>
+                        TCM: ${this.point.y}%<br>
+                        Participación: ${this.point.z}%`;
+                        }
+                    },
+                    plotOptions: {
+                        bubble: {
+                            minSize: 20,
+                            maxSize: 60
+                        }
+                    }
+                });
+            }
+
+            // Inicializar gráfico al cargar
+            $(document).ready(function () {
+                renderBCGChart();
+            });
+            // Manejo del botón Guardar
+            $('#btnGuardar').click(function () {
+                const btn = $(this);
+                btn.prop('disabled', true).html('<i class="fas fa-spinner fa-spin me-2"></i>GUARDANDO...');
+
+                // Simulación de guardado (reemplazar con AJAX real)
+                setTimeout(() => {
+                    btn.prop('disabled', false).html('<i class="fas fa-save me-2"></i>GUARDAR');
+                    toastr.success('Datos guardados correctamente');
+                }, 1500);
+            });
+        });
+    </script>
+}

@@ -1,0 +1,140 @@
+﻿@model proyecto_peti.Models.Vision
+
+@{
+    ViewBag.Title = "Visión";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    body {
+        background-color: #f3f6f9;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .card {
+        background-color: #ffffff;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    h2.text-center {
+        font-weight: 700;
+        color: #1d3557;
+        background: linear-gradient(90deg, #457b9d, #1d3557);
+        color: #fff;
+        padding: 1rem;
+        border-radius: 8px;
+    }
+
+    ul {
+        padding-left: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    ul li {
+        margin-bottom: 0.5rem;
+    }
+
+    .bg-light {
+        background-color: #f1f5f9 !important;
+        border-left: 4px solid #457b9d;
+        border-radius: 10px;
+    }
+
+    .form-label {
+        font-weight: 600;
+        color: #1d3557;
+    }
+
+    .vision-textarea {
+        border-radius: 10px;
+        border: 1px solid #ced4da;
+        font-size: 1rem;
+        padding: 1.2rem;
+        background-color: #ffffff;
+        box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+        resize: vertical;
+        width: 100%;
+        transition: border-color 0.3s;
+    }
+
+    .vision-textarea:focus {
+        border-color: #457b9d;
+        box-shadow: 0 0 0 0.1rem rgba(69, 123, 157, 0.25);
+    }
+
+    .text-center img {
+        filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.1));
+    }
+
+    .btn {
+        font-weight: 600;
+        border-radius: 50px;
+        padding: 0.6rem 1.4rem;
+        transition: all 0.2s ease-in-out;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06);
+    }
+
+    .btn:hover {
+        transform: translateY(-2px);
+    }
+
+    .d-flex.justify-content-between {
+        margin-top: 2rem;
+    }
+</style>
+
+<div class="container mt-4">
+    <div class="card p-4 shadow-sm">
+        <h2 class="text-center mb-4">2. VISIÓN</h2>
+
+        <p>
+            La <strong>VISIÓN</strong> de una empresa define lo que la empresa quiere lograr en el futuro.
+            Es lo que la organización aspira ser en torno a 3-5 años.
+        </p>
+
+        <ul>
+            <li>Debe ser retadora, positiva, comprensible y coherente con la misión.</li>
+            <li>Marcada por el mismo propósito de la misión.</li>
+            <li>Motivadora y estimulante para todos los miembros.</li>
+        </ul>
+
+        <p>
+            La visión debe ser conocida y compartida por toda la membresía de la empresa y también por aquellos que se relacionan con ella.
+        </p>
+
+        <div class="bg-light p-3 rounded mb-4">
+            <h5><strong>EJEMPLOS</strong></h5>
+            <p><strong>Empresa de servicios:</strong> Ser el grupo empresarial de referencia en nuestro área de actividad.</p>
+            <p><strong>Empresa productora de café:</strong> Queremos ser uno de los referentes en términos de la cultura y la excelencia del café. Una empresa con una oferta de los mejores productos y servicios que se conviertan en la primera elección de los amantes del café de todo el mundo.</p>
+            <p><strong>Agencia de certificación:</strong> Ser líderes en nuestro sector y un actor principal en todos los mercados donde operamos.</p>
+        </div>
+
+        @using (Html.BeginForm("Index", "Vision", FormMethod.Post))
+        {
+            <div class="mb-3">
+                <label class="form-label fw-bold">En este apartado describa la Visión de su empresa:</label>
+                @Html.TextAreaFor(m => m.Contenido, new
+                {
+                    @class = "form-control vision-textarea",
+                    style = "width: 100%; max-width: 10000px;",
+                    rows = 6,
+                    placeholder = "Ejemplo: 'Nuestra visión es... '"
+                })
+            </div>
+
+            <div class="text-center my-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Target_icon.svg/512px-Target_icon.svg.png" style="width: 80px;" alt="Visión" />
+                <p class="mt-2"><strong>Relación entre Misión, Proceso y Visión</strong></p>
+                <p class="fst-italic">¿Cuál es la situación actual? ¿Qué camino seguir? ¿Cuál es la situación futura?</p>
+            </div>
+
+            <div class="d-flex justify-content-between">
+                <a href="@Url.Action("Index", "Mision")" class="btn btn-outline-secondary">🔙 1. MISIÓN</a>
+                <button type="submit" class="btn btn-outline-success">💾 Guardar y continuar</button>
+                <a href="@Url.Action("Index", "Valores")" class="btn btn-outline-primary">3. VALORES 🔜</a>
+            </div>
+        }
+    </div>
+</div>

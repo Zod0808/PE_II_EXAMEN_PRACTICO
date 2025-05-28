@@ -1,0 +1,131 @@
+﻿@{
+    ViewBag.Title = "Menú Principal";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="card card-soft mb-5 text-center py-4">
+        <h2 class="fw-bold text-primary mb-2">PLANEACIÓN ESTRATÉGICA</h2>
+        <p class="text-muted mb-0">Herramienta para gestión de información empresarial</p>
+    </div>
+
+    <div class="card card-soft mb-4 text-center">
+        <a href="/InformacionEmpresa/Index" class="list-group-item list-group-item-soft text-infoempresa">
+            <i class="fas fa-building me-2"></i>INFORMACIÓN DE LA EMPRESA
+        </a>
+    </div>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card card-soft h-100">
+                <div class="card-body text-center">
+                    <a href="/Mision/Index" class="list-group-item list-group-item-soft text-mision">
+                        <i class="fas fa-flag me-2"></i>1. MISIÓN
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-soft h-100">
+                <div class="card-body text-center">
+                    <a href="/Vision/Index" class="list-group-item list-group-item-soft text-vision">
+                        <i class="fas fa-eye me-2"></i>2. VISIÓN
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-soft h-100">
+                <div class="card-body text-center">
+                    <a href="/Valores/Index" class="list-group-item list-group-item-soft text-valores">
+                        <i class="fas fa-star me-2"></i>3. VALORES
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card card-soft h-100">
+                <div class="card-body text-center">
+                    <a href="/Objetivos/Index" class="list-group-item list-group-item-soft text-objetivos">
+                        <i class="fas fa-bullseye me-2"></i>4. OBJETIVOS
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-soft h-100">
+                <div class="card-body text-center">
+                    <a href="/AnalisisFODA/Index" class="list-group-item list-group-item-soft text-analisis">
+                        <i class="fas fa-search me-2"></i>5. ANÁLISIS INTERNO Y EXTERNO
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-soft h-100">
+                <div class="card-body text-center">
+                    <a href="/CadenaValor/Index" class="list-group-item list-group-item-soft text-cadena">
+                        <i class="fas fa-link me-2"></i>6. CADENA DE VALOR
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card card-soft h-100">
+                <div class="card-body text-center">
+                    <a href="/BCG/Index" class="list-group-item list-group-item-soft text-matriz">
+                        <i class="fas fa-chart-pie me-2"></i>7. MATRIZ PARTICIPACIÓN
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-soft h-100">
+                <div class="card-body text-center">
+                    <a href="/Porter/Index" class="list-group-item list-group-item-soft text-porter">
+                        <i class="fas fa-hand-rock me-2"></i>8. LAS 5 FUERZAS DE PORTER
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-soft h-100">
+                <div class="card-body text-center">
+                    <a href="/PEST/Index" class="list-group-item list-group-item-soft text-pest">
+                        <i class="fas fa-globe me-2"></i>9. PEST
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 offset-md-2">
+            <div class="card card-soft h-100">
+                <div class="card-body text-center">
+                    <a href="/Estrategia/Index" class="list-group-item list-group-item-soft text-estrategia">
+                        <i class="fas fa-chess me-2"></i>10. IDENTIFICACIÓN ESTRATEGIA
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-soft h-100">
+                <div class="card-body text-center">
+                    <a href="/CAME/Index" class="list-group-item list-group-item-soft text-came">
+                        <i class="fas fa-tasks me-2"></i>11. MATRIZ CAME
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card card-soft mt-5 text-center">
+        <div class="card-header-soft text-primary">RESUMEN DEL PLAN EJECUTIVO</div>
+        <div class="card-body">
+            <a href="/Resumen/Index" class="btn btn-primary btn-lg rounded-pill px-5 shadow-sm">
+                <i class="fas fa-file-alt me-2"></i>Ver Resumen
+            </a>
+        </div>
+    </div>
+</div>

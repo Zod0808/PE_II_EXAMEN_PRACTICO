@@ -1,0 +1,61 @@
+﻿@model proyecto_peti.Models.InformacionEmpresa
+@{
+    ViewBag.Title = "Información de la Empresa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="card p-4 shadow-sm">
+        <h2 class="text-center text-white bg-primary py-2 rounded">INFORMACIÓN DE LA EMPRESA</h2>
+
+        <p>
+            El Plan Estratégico de Tecnologías de la Información – PETI, busca que la Entidad administre de manera eficiente los recursos de tecnología, los sistemas de información y la información, necesarios para la gestión de la organización.
+        </p>
+        <p>
+            Ejemplo de un plan estratégico de TI:<br />
+            <a href="https://www.inei.gob.pe/media/peta/PETI/Plan_Estrategico_de_Tecnologia_de_la_Informacion-PETI%20VF.PDF" target="_blank">
+                https://www.inei.gob.pe/media/peta/PETI/Plan_Estrategico_de_Tecnologia_de_la_Informacion-PETI%20VF.PDF
+            </a>
+        </p>
+
+        <div class="bg-light p-4 rounded mb-4 border">
+            <h5 class="fw-bold text-uppercase text-muted">EJEMPLO</h5>
+
+            <p>
+                <strong>Apple Inc.</strong><br />
+                Apple es una empresa tecnológica multinacional con sede en Cupertino, California. Se especializa en el diseño, desarrollo y comercialización de productos electrónicos, software y servicios. Sus productos más conocidos incluyen el iPhone, el iPad, la iMac y el Apple Watch, además de su sistema operativo iOS y macOS. Apple también ofrece servicios como iTunes, Apple Music, iCloud y Apple Pay.
+            </p>
+
+            <p>
+                <strong>Amazon.com, Inc.</strong><br />
+                Amazon es una de las mayores empresas de comercio electrónico y tecnología del mundo. Inicialmente, comenzó como una plataforma de venta de libros en línea, pero ha crecido para ofrecer una amplia variedad de productos y servicios, incluyendo Amazon Prime (entrega rápida), Amazon Web Services (servicios en la nube), dispositivos como el Kindle y la serie de altavoces inteligentes Echo, y producciones de contenido a través de Amazon Studios.
+            </p>
+
+            <p>
+                <strong>Tesla, Inc.</strong><br />
+                Tesla es una empresa automotriz y de energía con sede en Palo Alto, California. Su enfoque principal es la fabricación de vehículos eléctricos, incluyendo el Model S, Model 3, Model X y Model Y. Además de los automóviles, Tesla se dedica a la producción de baterías y sistemas de almacenamiento de energía, como el Powerwall y Powerpack, así como a la energía solar a través de productos como los paneles solares SolarGlass Roof. También está desarrollando tecnología de conducción autónoma.
+            </p>
+        </div>
+
+        @using (Html.BeginForm())
+        {
+            @Html.HiddenFor(m => m.PlanId)
+
+            <div class="mb-3">
+                <label class="fw-bold">Nombre de la empresa:</label>
+                @Html.TextBoxFor(m => m.NombreEmpresa, new { @class = "form-control", placeholder = "Escriba el nombre de la empresa..." })
+            </div>
+
+            <div class="mb-3">
+                <label class="fw-bold">Descripción breve:</label>
+                @Html.TextAreaFor(m => m.Descripcion, new { @class = "form-control", rows = 4, placeholder = "Describa brevemente lo que hace la empresa..." })
+            </div>
+
+            <div class="d-flex justify-content-between mt-4">
+                <a href="@Url.Action("Index", "Menu")" class="btn btn-secondary">🔙 ÍNDICE</a>
+                <button type="submit" class="btn btn-success">💾 GUARDAR Y CONTINUAR</button>
+                <a href="@Url.Action("Index", "Mision")" class="btn btn-primary">1. MISIÓN ➡️</a>
+            </div>
+        }
+    </div>
+</div>

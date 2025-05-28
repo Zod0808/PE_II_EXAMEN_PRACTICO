@@ -1,0 +1,488 @@
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\proyecto_peti.dll.config
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\proyecto_peti.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\proyecto_peti.pdb
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\csc.exe
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\csc.exe.config
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\csc.rsp
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\csi.exe
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\csi.exe.config
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\csi.rsp
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.AppContext.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Console.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.IO.Compression.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Net.Http.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.ValueTuple.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\vbc.exe
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\vbc.exe.config
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\vbc.rsp
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\VBCSCompiler.exe
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Helpers.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Mvc.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Razor.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.Razor.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Razor.xml
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.xml
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.Razor.xml
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Helpers.xml
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Mvc.xml
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\es\System.Web.Razor.resources.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.csproj.AssemblyReference.cache
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.csproj.CoreCompileInputs.cache
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\obj\Debug\proyecto.09E7A80E.Up2Date
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.dll
+C:\Users\Juan Jose\Desktop\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.pdb
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\proyecto_peti.dll.config
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\proyecto_peti.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\proyecto_peti.pdb
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\csc.exe
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\csc.exe.config
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\csc.rsp
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\csi.exe
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\csi.exe.config
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\csi.rsp
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.AppContext.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Console.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.IO.Compression.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Net.Http.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Net.Sockets.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.ValueTuple.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Xml.XPath.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\vbc.exe
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\vbc.exe.config
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\vbc.rsp
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\VBCSCompiler.exe
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\System.Web.Helpers.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\System.Web.Mvc.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\System.Web.Razor.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.Deployment.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.Razor.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\System.Web.Razor.xml
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.xml
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.Deployment.xml
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.Razor.xml
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\System.Web.Helpers.xml
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\System.Web.Mvc.xml
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\es\System.Web.Razor.resources.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\es\System.Web.Webpages.resources.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\es\System.Web.Helpers.resources.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\bin\es\System.Web.Mvc.resources.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.csproj.AssemblyReference.cache
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.csproj.CoreCompileInputs.cache
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\obj\Debug\proyecto.09E7A80E.Up2Date
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.dll
+C:\Users\carus\OneDrive\Escritorio\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.pdb
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\proyecto_peti.dll.config
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\proyecto_peti.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\proyecto_peti.pdb
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.Razor.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.xml
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.Razor.xml
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\es\System.Web.Razor.resources.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\es\System.Web.Webpages.resources.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\es\System.Web.Helpers.resources.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\bin\es\System.Web.Mvc.resources.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.csproj.CopyComplete
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.dll
+C:\Users\HP\Desktop\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.pdb
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\proyecto_peti.dll.config
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\proyecto_peti.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\proyecto_peti.pdb
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\csc.exe
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\csc.exe.config
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\csc.rsp
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\csi.exe
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\csi.exe.config
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\csi.rsp
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.AppContext.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Collections.Immutable.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Console.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Globalization.Calendars.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.IO.Compression.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.IO.FileSystem.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Net.Http.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Net.Sockets.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Reflection.Metadata.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.ValueTuple.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Xml.XPath.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\vbc.exe
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\vbc.exe.config
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\vbc.rsp
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\VBCSCompiler.exe
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\roslyn\VBCSCompiler.exe.config
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\Microsoft.Web.Infrastructure.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\System.Web.Helpers.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\System.Web.Mvc.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\System.Web.Razor.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.Deployment.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.Razor.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\System.Web.Razor.xml
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.xml
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.Deployment.xml
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\System.Web.Webpages.Razor.xml
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\System.Web.Helpers.xml
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\System.Web.Mvc.xml
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\es\System.Web.Razor.resources.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\es\System.Web.Webpages.resources.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\es\System.Web.Helpers.resources.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\es\System.Web.Mvc.resources.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.csproj.AssemblyReference.cache
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.csproj.CoreCompileInputs.cache
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\obj\Debug\proyecto.09E7A80E.Up2Date
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\obj\Debug\proyecto_peti.pdb
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\EntityFramework.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\EntityFramework.SqlServer.dll
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\EntityFramework.xml
+C:\Carpeta D\UPT\ULTIMO CICLO\PETI\juanjo kk\proyecto_peti\proyecto_peti\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\proyecto_peti.dll.config
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\proyecto_peti.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\proyecto_peti.pdb
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\EntityFramework.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\System.Web.Helpers.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\System.Web.Mvc.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\System.Web.Razor.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\System.Web.Webpages.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\System.Web.Webpages.Razor.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\EntityFramework.xml
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\System.Web.Razor.xml
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\System.Web.Webpages.xml
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\System.Web.Webpages.Razor.xml
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\System.Web.Helpers.xml
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\System.Web.Mvc.xml
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\es\System.Web.Razor.resources.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\es\System.Web.Webpages.resources.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\es\System.Web.Helpers.resources.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\es\System.Web.Mvc.resources.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\obj\Debug\proyecto_peti.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\obj\Debug\proyecto_peti.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\obj\Debug\proyecto_peti.csproj.CopyComplete
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\obj\Debug\proyecto_peti.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\obj\Debug\proyecto_peti.pdb
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\csc.exe
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\csc.exe.config
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\csc.rsp
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\csi.exe
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\csi.exe.config
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\csi.rsp
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.AppContext.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Console.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.IO.Compression.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Net.Http.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Net.Sockets.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.ValueTuple.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\vbc.exe.config
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\vbc.rsp
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\PE\Proyecto_PETI\proyecto_peti\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\EntityFramework.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\EntityFramework.xml
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\csc.exe.config
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\csc.rsp
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\csi.exe
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\csi.exe.config
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\csi.rsp
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.AppContext.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Console.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.IO.Compression.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Net.Http.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Net.Sockets.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.ValueTuple.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\vbc.exe
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\vbc.exe.config
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\vbc.rsp
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Desktop\Proyecto_PETI\proyecto_peti\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\proyecto_peti.dll.config
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\proyecto_peti.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\proyecto_peti.pdb
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\csc.exe
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\csc.exe.config
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\csc.rsp
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\csi.exe
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\csi.exe.config
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\csi.rsp
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.AppContext.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Console.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.IO.Compression.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Net.Http.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Net.Sockets.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.ValueTuple.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\vbc.exe
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\vbc.exe.config
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\vbc.rsp
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\EntityFramework.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\System.Web.Helpers.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\System.Web.Mvc.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\System.Web.Razor.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\System.Web.Webpages.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\System.Web.Webpages.Razor.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\EntityFramework.xml
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\System.Web.Razor.xml
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\System.Web.Webpages.xml
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\System.Web.Webpages.Razor.xml
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\System.Web.Helpers.xml
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\System.Web.Mvc.xml
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\es\System.Web.Razor.resources.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\es\System.Web.Webpages.resources.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\es\System.Web.Helpers.resources.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\bin\es\System.Web.Mvc.resources.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\obj\Debug\proyecto_peti.csproj.AssemblyReference.cache
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\obj\Debug\proyecto_peti.csproj.CoreCompileInputs.cache
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\obj\Debug\proyecto_peti.csproj.CopyComplete
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\obj\Debug\proyecto_peti.dll
+C:\Users\HP\Pictures\Proyecto_PETI\proyecto_peti\obj\Debug\proyecto_peti.pdb
+C:\Users\Juan Jose\Desktop\Proyecto_PETI\proyecto_peti\bin\EntityFramework.dll
+C:\Users\Juan Jose\Desktop\Proyecto_PETI\proyecto_peti\bin\EntityFramework.SqlServer.dll
+C:\Users\Juan Jose\Desktop\Proyecto_PETI\proyecto_peti\bin\EntityFramework.xml
+C:\Users\Juan Jose\Desktop\Proyecto_PETI\proyecto_peti\bin\EntityFramework.SqlServer.xml

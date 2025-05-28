@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Proyecto Peti</title>
+    <!-- Bootstrap CSS -->
+    <link href="~/Source/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- CSS personalizado -->
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/Content/favicon.ico" />
+</head>
+
+<style>
+    body {
+        background-color: #f4f9fd;
+    }
+
+    .card-soft {
+        border: none;
+        border-radius: 1.5rem;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 0 10px rgba(255,255,255,0.6);
+        background-color: #ffffff;
+    }
+
+    .card-header-soft {
+        background-color: transparent;
+        border: none;
+        font-weight: 600;
+        font-size: 1rem;
+        padding: 1rem 1.5rem;
+    }
+
+    .list-group-item-soft {
+        border: none;
+        background-color: transparent;
+        padding: 0.75rem 1.25rem;
+        font-weight: 500;
+        color: #333;
+        transition: background-color 0.2s;
+    }
+
+        .list-group-item-soft:hover {
+            background-color: #f0f4ff;
+            border-radius: 0.75rem;
+        }
+
+    .text-mision {
+        color: #0d6efd; /* Azul */
+    }
+
+    .text-vision {
+        color: #6610f2; /* Violeta */
+    }
+
+    .text-valores {
+        color: #fd7e14; /* Naranja */
+    }
+
+    .text-objetivos {
+        color: #198754; /* Verde */
+    }
+
+    .text-analisis {
+        color: #d63384; /* Rosa */
+    }
+
+    .text-cadena {
+        color: #20c997; /* Verde agua */
+    }
+
+    .text-matriz {
+        color: #6f42c1; /* Morado oscuro */
+    }
+
+    .text-porter {
+        color: #ffc107; /* Amarillo */
+    }
+
+    .text-pest {
+        color: #dc3545; /* Rojo */
+    }
+
+    .text-estrategia {
+        color: #0dcaf0; /* Celeste */
+    }
+
+    .text-came {
+        color: #6c757d; /* Gris oscuro */
+    }
+
+    .btn {
+        font-weight: 600;
+        border-radius: 1rem;
+    }
+
+    h5, h4 {
+        letter-spacing: 1px;
+    }
+</style>
+
+<body>
+    <!-- Navbar con estilo mejorado -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="@Url.Action("Index", "Home")">
+                <i class="fas fa-chart-line me-2"></i>Proyecto Peti
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Menu", "Home")">
+                            <i class="fas fa-home me-1"></i>Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Index", "Resumen")">
+                            <i class="fas fa-file-alt me-1"></i>Resumen
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal con padding superior para compensar la navbar -->
+    <main class="container mt-5 py-4">
+        @RenderBody()
+    </main>
+
+    <!-- Footer mejorado -->
+    <footer class="bg-light py-4 mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; @DateTime.Now.Year - Proyecto Peti</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p class="mb-0">Planeación Estratégica TI</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts optimizados - reduciendo duplicidades -->
+    <script src="~/Source/js/jquery-3.7.1.min.js"></script>
+    <script src="~/Source/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Source/js/jquery.validate.min.js"></script>
+    <script src="~/Source/js/jquery.validate.unobtrusive.min.js"></script>
+
+    <!-- Scripts para gráficos Highcharts -->
+    <script src="~/Source/js/highcharts.js"></script>
+    <script src="~/Source/js/highcharts-more.js"></script>
+    <script src="~/Source/js/highcharts-3d.js"></script>
+    <script src="~/Source/js/exporting.js"></script>
+    <script src="~/Source/js/offline-exporting.js"></script>
+
+    <!-- Scripts adicionales -->
+    <script src="~/Source/js/ini.js"></script>
+    <script src="~/Source/js/jquery.form.js"></script>
+
+    @RenderSection("Scripts", false)
+</body>
+</html>

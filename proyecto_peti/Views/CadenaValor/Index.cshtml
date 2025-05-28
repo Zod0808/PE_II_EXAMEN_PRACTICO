@@ -1,0 +1,119 @@
+﻿@model List<proyecto_peti.Models.CadenaValor>
+@using proyecto_peti.Models
+@{
+    ViewBag.Title = "Cadena de Valor";
+    var fortalezasDebilidades = ViewBag.FortalezasDebilidades as ObservacionesCadenaValor;
+    double? potencialMejora = ViewBag.PotencialMejora as double?;
+}
+
+<h2>Evaluación de la Cadena de Valor</h2>
+<br />
+<h6>
+    A continuación marque con una X para valorar su empresa en función de cada una de las afirmaciones,
+    de tal forma que:
+    <br />1 = En total desacuerdo;
+    <br />2 = No está de acuerdo;
+    <br />3 = Está de acuerdo;
+    <br />4 = Está bastante de acuerdo;
+    <br />5 = En total acuerdo.
+    <br />En caso de no completar una casilla le aparecerá el mensaje de error.
+</h6>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@using (Html.BeginForm("Index", "CadenaValor", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th style="width:5%;">#</th>
+                <th>Pregunta</th>
+                <th style="width:15%;">Valoración (1 a 5)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <tr>
+                    <td>@Model[i].PreguntaNumero</td>
+                    <td>@Model[i].PreguntaTexto</td>
+                    <td>
+                        @Html.HiddenFor(m => m[i].Id)
+                        @Html.HiddenFor(m => m[i].PlanId)
+                        @Html.HiddenFor(m => m[i].PreguntaNumero)
+                        @Html.HiddenFor(m => m[i].PreguntaTexto)
+
+                        @Html.DropDownListFor(m => m[i].Valoracion,
+                            new SelectList(
+                                new List<SelectListItem> {
+                                    new SelectListItem{ Text = "1", Value="1"},
+                                    new SelectListItem{ Text = "2", Value="2"},
+                                    new SelectListItem{ Text = "3", Value="3"},
+                                    new SelectListItem{ Text = "4", Value="4"},
+                                    new SelectListItem{ Text = "5", Value="5"},
+                                }, "Value", "Text", Model[i].Valoracion),
+                            "Seleccione", new { @class = "form-control", required = "required" })
+                        @Html.ValidationMessageFor(m => m[i].Valoracion, "", new { @class = "text-danger" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <h2>Reflexione sobre el resultado obtenido. Anote aquellas observaciones que puedan ser de su interés. Identifique sus fortalezas y debilidades respecto a su cadena de valor</h2>
+    <br />
+
+    <h5>Observaciones - Fortalezas</h5>
+    <div class="form-group">
+        @Html.LabelFor(m => fortalezasDebilidades.Fortalezas1)
+        @Html.TextBoxFor(m => fortalezasDebilidades.Fortalezas1, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => fortalezasDebilidades.Fortalezas1, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => fortalezasDebilidades.Fortalezas2)
+        @Html.TextBoxFor(m => fortalezasDebilidades.Fortalezas2, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => fortalezasDebilidades.Fortalezas2, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => fortalezasDebilidades.Fortalezas3)
+        @Html.TextBoxFor(m => fortalezasDebilidades.Fortalezas3, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => fortalezasDebilidades.Fortalezas3, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => fortalezasDebilidades.Fortalezas4)
+        @Html.TextBoxFor(m => fortalezasDebilidades.Fortalezas4, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => fortalezasDebilidades.Fortalezas4, "", new { @class = "text-danger" })
+    </div>
+
+    <h5>Observaciones - Debilidades</h5>
+    <div class="form-group">
+        @Html.LabelFor(m => fortalezasDebilidades.Debilidades1)
+        @Html.TextBoxFor(m => fortalezasDebilidades.Debilidades1, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => fortalezasDebilidades.Debilidades1, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => fortalezasDebilidades.Debilidades2)
+        @Html.TextBoxFor(m => fortalezasDebilidades.Debilidades2, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => fortalezasDebilidades.Debilidades2, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => fortalezasDebilidades.Debilidades3)
+        @Html.TextBoxFor(m => fortalezasDebilidades.Debilidades3, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => fortalezasDebilidades.Debilidades3, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => fortalezasDebilidades.Debilidades4)
+        @Html.TextBoxFor(m => fortalezasDebilidades.Debilidades4, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => fortalezasDebilidades.Debilidades4, "", new { @class = "text-danger" })
+    </div><br />
+
+
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+}
+    
